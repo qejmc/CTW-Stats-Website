@@ -1,0 +1,160 @@
+@font-face {
+    font-family: rockFont;
+    src: url(JFRocSol.ttf);
+}
+@font-face {
+    font-family: rockFont2;
+    src: url(JFRocOut.ttf);
+}
+body{
+    font-family: 'Arapey', serif;
+    margin: 0px;
+}
+.main{
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;
+    padding-bottom: 20px;
+}
+.header{
+	padding-top: 6px;
+    padding-bottom: 6px;
+}
+.header p{
+	text-align: center;
+	color: #fff5c7;
+    font-size: 70px;
+    font-family: "rockFont2";
+    font-weight: bold;
+}
+.submitButton:hover{
+	background-color: #b8b8b8;
+  	color: black;
+  	cursor: pointer;
+}
+.inputField{
+    padding:12px;
+    display:inline-block;
+    border:none;
+    border-bottom:1px solid #ccc;
+    width:35%;
+    margin: auto;
+    margin-bottom: 50px;
+    font-family: 'Noto Sans', sans-serif;
+}
+.centerContainer{
+    text-align: center;
+    margin: auto;
+}
+.search{
+    background-color: green;
+    padding: 12px;
+    color: rgb(192, 192, 192);
+}
+.search:hover{
+    background-color: green;
+    padding: 12px;
+    color: rgb(255, 255, 255);
+}
+#kills{
+    color: #a8a185;
+}
+#caps{
+    color: #a8a185;
+}
+.outputFields{
+    display: block;
+    align-items: center;
+    margin: auto;
+  	background: rgba(65, 65, 65, 0.541);
+  	text-align: left;
+    font-size: 20px;
+    font-family: "rockFont";
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.grayBox{
+    border-radius: 25px;
+    display: block;
+    margin: auto;
+  	top: 50px;
+  	left: 50px;
+  	width: 40%;
+  	height: 90%;
+  	background: rgba(82, 82, 82, 0.432);
+  	text-align: middle;
+    min-width: 300px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.displayBox{
+    font-size: 20px;
+}
+.containerHeader{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+    color: #ccc4a2;
+    font-family: "rockFont";
+    font-weight: 100;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    float: left;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+#rankingicon{
+    width: 100px;
+    height: 100px;
+}
+.outputFieldsInner{
+    display: inline-block;
+    margin: auto;
+}
+#ach{
+    font-size: 15px;
+    font-family: "rockFont";
+    color: #a8a185;
+}
+#checks{
+    padding-right: 20px;
+    padding-left: 20px;
+    color: #cac2a1;
+}
+.footer{
+	padding-top: 15px;
+	min-height: 50px;
+	padding-left: 20px;
+	background-color: #615c47;
+    padding-bottom: 10px;
+    bottom: 0px;
+}
+.lbOutputFields{
+    display: inline-block;
+    align-items: center;
+    margin: auto;
+  	background: rgba(65, 65, 65, 0.541);
+  	text-align: center;
+    font-size: 15px;
+    font-family: "rockFont";
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-right: 20%;
+    width: 250px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.lbHeader{
+    font-size: 20px;
+    color: #cac2a1;
+}
+.lb{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}

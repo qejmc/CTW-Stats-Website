@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<script src="script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+<head>
+	<title>CTW Stats by qej</title>
+</head>
+<div class="main">
+	<section class="header">
+		<p>Capture the Wool Statistics</p>
+	</section>
+	<body>
+		<div class="centerContainer">
+			<button class="search" id="searchButton" onclick="getInput(this.body)">
+				<i class="fa fa-search" aria-hidden="true"></i>
+			</button>
+			<input type="text" id="ign" class="inputField" placeholder="Enter a username..." onkeypress='checkEnterClick(event)'>
+			<div class="grayBox">
+				<div id="display" class="displayBox"></div>
+			</div>
+		</div>
+	</body>
+</div>
+<footer class="footer">
+	<p>CTW Stats</p>
+</footer>
+</html>
